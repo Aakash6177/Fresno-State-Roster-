@@ -1,0 +1,144 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #002e6d;
+}
+
+li {
+  float: left;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+li a:hover:not(.active) {
+  background-color:  #db0032;
+}
+
+.active {
+  background-color:  #002e6d;
+
+}
+nav{
+  width: 100%;
+
+}
+.main-page{
+  margin-top: 30px;
+  margin-left: 100px;
+
+}
+.heading{
+  border-left: 4px solid #002e6d;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.location{
+  display: inline-flex;
+}
+section{
+  width: 50%;
+  margin-bottom: 30px;
+
+}
+.bio{
+  display: inline-block;
+}
+#bulldog{
+  width: 80px;
+  height: 52.186
+
+}
+.info{
+  margin-top: 30px;
+  display: inline-block;
+  margin-left: 30px;
+}
+.name{
+  font-weight: bold;
+  color: #002e6d;
+}
+
+.inner{
+  margin-top:20px;
+  font-size: 15px;
+}
+.news{
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 700px;
+  top: 94px;
+  position: absolute;
+  width: 45%;
+  margin-top: 68px;
+
+}
+
+#news-title{
+  Border-left: 4px solid #002e6d;
+  padding-left: 10px;
+  margin-bottom: 70px;
+
+}
+iframe{
+  margin-top: 30px;
+}
+.scroll-bg{
+  background-color: #eee;
+  width: 400px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 40px;
+
+}
+.scroll-div{
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #eee;
+
+}
+
+.scroll-object{
+  color: black;
+  font-size: 15px;
+  font-weight: normal;
+  border-radius: 20%;
+}
+.bulldog-nav{
+  background-color:#b1102b;
+  text-align: center;
+}
+footer{
+  margin-top: 50px;
+  text-align: center;
+
+}
+.footer-images{
+  border-radius: 0;
+  text-align: center;
+}
+.footer-img{
+  text-align: center;
+}
+.play{
+  border-radius: 50%;
+}
