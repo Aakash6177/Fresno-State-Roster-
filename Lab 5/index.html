@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Prime Number table</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>Lab-5</h1>
+
+      <h3>Kindly comment out the script tag you wish to test</h3>
+
+    <label for="text">How many Prime numbers you want?:
+      <input id = "row_num" type="text" name="" placeholder="ex: 4" value="">
+    </label>
+    <button id = "table-btn"type="button" name="button" value = "" onclick = "getSerialNo();">
+
+      Generate Table
+    </button>
+
+    <!--  reset button -->
+    <button id = "reset" onclick="deleteRow();">Reset</button>
+    <br>
+    <br>
+
+    <div class = "table-div">
+    <table class="prime_no">
+      <thead>
+        <th>S.No</th>
+        <th>Primes</th>
+      </thead>
+
+      <tbody id = "table-items">
+        <!-- <tr> -->
+          <!-- <td id = "sno"></td>
+          <td id = "prime"></td> -->
+        <!-- </tr> -->
+
+      </tbody>
+
+      <tbody id= "prime-items">
+
+      </tbody>
+
+
+    </table>
+
+    </div>
+    <!-- <script src="./exercise_2.js"></script> -->
+    <script src = "./exercise_3.js"></script>
+
+    <!-- <script src = "./exercise_4.js"></script> -->
+  </body>
+
+</html>
