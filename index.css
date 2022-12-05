@@ -1,0 +1,13 @@
+body {
+    height: 100%;
+}
+
+table td {
+    text-align: center;
+    width: 50%;
+}
+
+td {
+    width: 20%;
+    text-align: center;
+}
